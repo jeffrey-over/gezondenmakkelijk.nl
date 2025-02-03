@@ -1,0 +1,110 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero Section -->
+<section class="relative pt-32 pb-24 bg-gradient-to-b from-emerald-50 to-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                Gezond & Lekker Koken<br>
+                <span class="text-emerald-600">Was Nog Nooit Zo Makkelijk</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+                Ontdek honderden gezonde recepten die je in no-time op tafel zet
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/recepten" class="bg-emerald-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-emerald-700 transition-colors">
+                    Bekijk Recepten
+                </a>
+                <a href="/categorieen" class="border border-gray-300 text-gray-700 px-8 py-4 rounded-full text-lg font-medium hover:border-emerald-600 hover:text-emerald-600 transition-colors">
+                    Categorieën
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Recipes -->
+<section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Uitgelichte Recepten</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% for recipe in site.recipes limit:6 %}
+            <article class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+                <a href="{{ recipe.url }}" class="block">
+                    <img src="{{ recipe.image }}" alt="{{ recipe.title }}" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            {% for category in recipe.categories limit:1 %}
+                            <span class="px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800">
+                                {{ category }}
+                            </span>
+                            {% endfor %}
+                            <span class="text-sm text-gray-500">{{ recipe.prep_time }} min</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">{{ recipe.title }}</h3>
+                        <p class="text-gray-600 line-clamp-2">{{ recipe.description }}</p>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Categorieën</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <a href="/categorie/ontbijt" class="group relative h-40 rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Ontbijt" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Ontbijt</span>
+            </a>
+            <a href="/categorie/lunch" class="group relative h-40 rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Lunch" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Lunch</span>
+            </a>
+            <a href="/categorie/diner" class="group relative h-40 rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1547496502-affa22d38842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Diner" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Diner</span>
+            </a>
+            <a href="/categorie/snacks" class="group relative h-40 rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Snacks" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <span class="absolute bottom-4 left-4 text-white font-bold text-xl">Snacks</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-emerald-50 rounded-2xl p-8 md:p-12">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                    Wekelijkse Recepten in je Inbox
+                </h2>
+                <p class="text-gray-600 mb-8">
+                    Schrijf je in voor onze nieuwsbrief en ontvang elke week nieuwe, gezonde recepten
+                </p>
+                <form class="flex flex-col sm:flex-row gap-4">
+                    <input 
+                        type="email" 
+                        placeholder="jouw@email.nl" 
+                        class="flex-1 px-6 py-3 rounded-full border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                    >
+                    <button class="bg-emerald-600 text-white px-8 py-3 rounded-full hover:bg-emerald-700 transition-colors">
+                        Inschrijven
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

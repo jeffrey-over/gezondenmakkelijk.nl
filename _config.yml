@@ -1,0 +1,18 @@
+title: Gezond en Makkelijk
+email: jeffrey.overmeer@mgmail.com
+description: Ontdek heerlijke, gezonde en eenvoudige recepten voor het hele gezin
+baseurl: ""
+url: "https://gezondenmakkelijk.nl"
+permalink: /recepten/:title/
+
+collections:
+  recipes:
+    output: true
+    permalink: /recepten/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
