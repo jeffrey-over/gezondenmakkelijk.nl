@@ -1,7 +1,7 @@
 ---
 title: Groene Smoothie Bowl
 description: Voedzame ontbijtbowl vol vitamines en mineralen
-image: https://images.unsplash.com/photo-1638437447450-ae0fb6c1e3a6
+image: https://images.unsplash.com/photo-1589017605676-3b1e553a60ed
 categories: [Ontbijt, Vegetarisch, Koolhydraatarm]
 tijd: 10
 portions: 1
