@@ -1,0 +1,97 @@
+---
+layout: default
+title: "Recepten"
+---
+
+<div class="min-h-screen bg-gray-50">
+  <!-- Hero Section -->
+  <section class="relative py-24 bg-gradient-to-b from-emerald-50 to-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">Alle Recepten</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Ontdek onze collectie gezonde en makkelijke recepten</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search & Filter Section -->
+  <section class="py-8 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Search -->
+      <div class="max-w-2xl mx-auto mb-8">
+        <div class="relative">
+          <input 
+            type="search" 
+            id="recipe-search"
+            placeholder="Zoek recepten..." 
+            class="w-full px-6 py-4 bg-white border border-gray-200 rounded-full shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+          >
+          <span class="absolute right-3 top-1/2 -translate-y-1/2 bg-emerald-600 text-white p-2 rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <div class="flex flex-wrap justify-center gap-4">
+        <button class="filter-button px-6 py-2 rounded-full bg-emerald-600 text-white font-medium hover:bg-emerald-700 transition-colors" data-filter="all">
+          Alle Recepten
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="ontbijt">
+          Ontbijt
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="lunch">
+          Lunch
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="diner">
+          Diner
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="snacks">
+          Snacks
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="vegetarisch">
+          Vegetarisch
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recipes Grid -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {% for recipe in site.recepten %}
+        <article class="recipe-card bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+          <a href="{{ recipe.url }}" class="block">
+            <img src="{{ recipe.image }}" alt="{{ recipe.title }}" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <div class="flex items-center gap-2 mb-3">
+                {% for category in recipe.categories %}
+                <span class="recipe-category px-3 py-1 rounded-full text-sm font-medium bg-emerald-100 text-emerald-800">
+                  {{ category }}
+                </span>
+                {% endfor %}
+                <span class="text-sm text-gray-500">{{ recipe.tijd }} min</span>
+              </div>
+              <h3 class="recipe-title text-xl font-bold text-gray-900 mb-2">{{ recipe.title }}</h3>
+              <p class="recipe-description text-gray-600 line-clamp-2">{{ recipe.description }}</p>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+      </div>
+
+      <!-- No Results Message -->
+      <div id="no-results" class="hidden text-center py-16">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Geen recepten gevonden</h3>
+        <p class="text-gray-600">Probeer andere zoektermen of filters</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Include search script -->
+<script src="/assets/js/search.js"></script>

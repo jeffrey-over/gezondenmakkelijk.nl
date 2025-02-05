@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Gezonde Recepten</title>
+    <meta name="description" content="Gezonde en lekkere recepten voor elk moment van de dag">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LNRFQBP4C0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LNRFQBP4C0');
+</script>
+  
+    
+    <script defer src="/assets/js/search-modal.js"></script>
+   
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+            <div class="flex items-center">
+                <a href="/" class="flex items-center">
+                    <span class="text-2xl font-bold text-emerald-600">Gezond</span>
+                    <span class="text-2xl font-light text-gray-600">&Makkelijk</span>
+                </a>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/" class="text-gray-600 hover:text-emerald-600 transition-colors">Home</a>
+                <a href="/recepten" class="text-gray-600 hover:text-emerald-600 transition-colors">Recepten</a>
+                <a href="/categorieen" class="text-gray-600 hover:text-emerald-600 transition-colors">Categorieën</a>
+                <a href="/over-ons" class="text-gray-600 hover:text-emerald-600 transition-colors">Over Ons</a>
+                <button 
+                id="header-search-button" 
+                type="button"
+                class="inline-flex items-center bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition-colors"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                Zoeken
+            </button>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        <div class="min-h-screen bg-gray-50">
+  <!-- Hero Section -->
+  <section class="relative py-24 bg-gradient-to-b from-emerald-50 to-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">Contact</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Heb je een vraag of suggestie? Neem contact met ons op!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="py-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl shadow-sm p-8 md:p-12">
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="space-y-6">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Naam</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+              placeholder="Jouw naam"
+            >
+          </div>
+
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">E-mailadres</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+              placeholder="jouw@email.nl"
+            >
+          </div>
+
+          <div>
+            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Onderwerp</label>
+            <select
+              id="subject"
+              name="subject"
+              required
+              class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+            >
+              <option value="">Selecteer een onderwerp</option>
+              <option value="vraag">Vraag over een recept</option>
+              <option value="suggestie">Receptsuggestie</option>
+              <option value="samenwerking">Samenwerking</option>
+              <option value="anders">Anders</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Bericht</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+              placeholder="Typ hier je bericht..."
+            ></textarea>
+          </div>
+
+          <div class="flex justify-end">
+            <button
+              type="submit"
+              class="bg-emerald-600 text-white px-8 py-3 rounded-xl font-medium hover:bg-emerald-700 transition-colors"
+            >
+              Verstuur Bericht
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Additional Contact Info -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl shadow-sm p-6">
+          <div class="flex items-center gap-4">
+            <div class="bg-emerald-100 p-3 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900">E-mail</h3>
+              <p class="text-gray-600">info@gezondenmakkelijk.nl</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm p-6">
+          <div class="flex items-center gap-4">
+            <div class="bg-emerald-100 p-3 rounded-xl">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-emerald-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-900">Locatie</h3>
+              <p class="text-gray-600">Nederland</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+    </main>
+    <!-- Search Modal -->
+<div id="search-modal" class="fixed inset-0 z-50 hidden">
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-gray-900/50 backdrop-blur-sm"></div>
+    
+    <!-- Modal -->
+    <div class="relative min-h-screen flex items-start justify-center pt-24 px-4">
+      <div class="w-full max-w-2xl bg-white rounded-2xl shadow-xl">
+        <!-- Search Header -->
+        <div class="flex items-center justify-between p-4 border-b border-gray-200">
+          <h2 class="text-lg font-semibold text-gray-900">Zoeken</h2>
+          <button id="close-search" class="p-2 text-gray-500 hover:text-gray-700 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        
+        <!-- Search Input -->
+        <div class="p-4">
+          <div class="relative">
+            <input 
+              type="search" 
+              id="modal-search"
+              placeholder="Zoek recepten..." 
+              class="w-full px-6 py-4 bg-gray-50 border border-gray-200 rounded-full shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+              autofocus
+            >
+            <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </span>
+          </div>
+        </div>
+        
+        <!-- Search Results -->
+        <div id="search-results" class="max-h-[60vh] overflow-y-auto p-4">
+          <div class="space-y-4">
+            
+            <a href="/recepten/energieballen/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71" alt="Energieballen" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Energieballen</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Gezonde energieballen met dadels en noten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Snacks
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">15 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/groene-smoothie-bowl/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1638437447450-ae0fb6c1e3a6" alt="Groene Smoothie Bowl" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Groene Smoothie Bowl</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Voedzame ontbijtbowl vol vitamines en mineralen</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">10 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/havermout-koekjes/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" alt="Gezonde Havermout Koekjes" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Gezonde Havermout Koekjes</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Suikervrije koekjes perfect als tussendoortje</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Snacks
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">25 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/havermout-met-fruit/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929" alt="Havermout met vers fruit" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Havermout met vers fruit</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Een voedzaam ontbijt met havermout, vers fruit en honing</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">20 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/kip-zoete-aardappel.md/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1529566652340-2c41a1eb6d93" alt="Kip met zoete aardappel" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Kip met zoete aardappel</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Gegrilde kip met zoete aardappel en groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">45 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/linzensoep/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd" alt="Kruidige Linzensoep" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Kruidige Linzensoep</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Verwarmende soep vol eiwitten en groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">40 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/overnight-oats/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a4" alt="Overnight Oats met Rood Fruit" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Overnight Oats met Rood Fruit</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Voedzaam ontbijt met havermout en vers fruit</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">10 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/quinoa-bowl/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Quinoa Buddha Bowl" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Quinoa Buddha Bowl</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Kleurrijke maaltijdsalade met geroosterde groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">30 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/quinoa-salade/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1540914124281-342587941389" alt="Quinoa Salade" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Quinoa Salade</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Frisse salade met quinoa, avocado en gegrilde groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">25 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/zalm-groenten-pakketjes/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1580476262798-bddd9f4b7369" alt="Zalm-groenten Pakketjes" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Zalm-groenten Pakketjes</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Makkelijke en gezonde ovenschotel in aluminiumfolie</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">25 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/zalm-groenten/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327" alt="Zalm met seizoensgroenten" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Zalm met seizoensgroenten</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Gegrilde zalm met seizoensgroenten en quinoa</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">30 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          
+          <!-- No Results Message -->
+          <div id="modal-no-results" class="hidden text-center py-8">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">Geen recepten gevonden</h3>
+            <p class="text-gray-600">Probeer andere zoektermen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Over Ons</h3>
+                <p class="text-gray-600">
+                    Gezond & Makkelijk helpt je om elke dag weer gezonde en lekkere maaltijden op tafel te zetten.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Categorieën</h3>
+                <ul class="space-y-2">
+                    <li><a href="/categorie/ontbijt" class="text-gray-600 hover:text-emerald-600">Ontbijt</a></li>
+                    <li><a href="/categorie/lunch" class="text-gray-600 hover:text-emerald-600">Lunch</a></li>
+                    <li><a href="/categorie/diner" class="text-gray-600 hover:text-emerald-600">Diner</a></li>
+                    <li><a href="/categorie/snacks" class="text-gray-600 hover:text-emerald-600">Snacks</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="/over-ons" class="text-gray-600 hover:text-emerald-600">Over Ons</a></li>
+                    <li><a href="/contact" class="text-gray-600 hover:text-emerald-600">Contact</a></li>
+                    <li><a href="/privacy" class="text-gray-600 hover:text-emerald-600">Privacy</a></li>
+                    <li><a href="/voorwaarden" class="text-gray-600 hover:text-emerald-600">Voorwaarden</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Nieuwsbrief</h3>
+                <p class="text-gray-600 mb-4">
+                    Schrijf je in voor wekelijkse recepten
+                </p>
+                <form class="space-y-4">
+                    <input 
+                        type="email" 
+                        placeholder="jouw@email.nl" 
+                        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                    >
+                    <button class="w-full bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition-colors">
+                        Inschrijven
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
+            <p>&copy; 2024 Gezond & Makkelijk. Alle rechten voorbehouden.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

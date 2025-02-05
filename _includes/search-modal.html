@@ -1,0 +1,71 @@
+<!-- Search Modal -->
+<div id="search-modal" class="fixed inset-0 z-50 hidden">
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-gray-900/50 backdrop-blur-sm"></div>
+    
+    <!-- Modal -->
+    <div class="relative min-h-screen flex items-start justify-center pt-24 px-4">
+      <div class="w-full max-w-2xl bg-white rounded-2xl shadow-xl">
+        <!-- Search Header -->
+        <div class="flex items-center justify-between p-4 border-b border-gray-200">
+          <h2 class="text-lg font-semibold text-gray-900">Zoeken</h2>
+          <button id="close-search" class="p-2 text-gray-500 hover:text-gray-700 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        
+        <!-- Search Input -->
+        <div class="p-4">
+          <div class="relative">
+            <input 
+              type="search" 
+              id="modal-search"
+              placeholder="Zoek recepten..." 
+              class="w-full px-6 py-4 bg-gray-50 border border-gray-200 rounded-full shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+              autofocus
+            >
+            <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </span>
+          </div>
+        </div>
+        
+        <!-- Search Results -->
+        <div id="search-results" class="max-h-[60vh] overflow-y-auto p-4">
+          <div class="space-y-4">
+            {% for recipe in site.recepten %}
+            <a href="{{ recipe.url }}" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="{{ recipe.image }}" alt="{{ recipe.title }}" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">{{ recipe.title }}</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">{{ recipe.description }}</p>
+                  <div class="flex gap-2 mt-2">
+                    {% for category in recipe.categories limit:1 %}
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      {{ category }}
+                    </span>
+                    {% endfor %}
+                    <span class="px-2 py-1 text-xs text-gray-500">{{ recipe.tijd }} min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            {% endfor %}
+          </div>
+          
+          <!-- No Results Message -->
+          <div id="modal-no-results" class="hidden text-center py-8">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">Geen recepten gevonden</h3>
+            <p class="text-gray-600">Probeer andere zoektermen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
