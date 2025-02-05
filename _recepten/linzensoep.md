@@ -1,7 +1,7 @@
 ---
 title: Kruidige Linzensoep
 description: Verwarmende soep vol eiwitten en groenten
-image: https://images.unsplash.com/photo-1547592166-23ac45744acd
+image: https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a
 categories: [Lunch, Diner, Vegetarisch, Meal-prep]
 tijd: 40
 portions: 6

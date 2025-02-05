@@ -1,7 +1,7 @@
 ---
 title: Quinoa Buddha Bowl
 description: Kleurrijke maaltijdsalade met geroosterde groenten
-image: https://images.unsplash.com/photo-1512621776951-a57141f2eefd
+image: https://images.unsplash.com/photo-1546069901-ba9599a7e63c
 categories: [Lunch, Diner, Vegetarisch, Koolhydraatarm]
 tijd: 30
 portions: 2

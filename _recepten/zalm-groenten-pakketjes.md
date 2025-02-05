@@ -1,7 +1,7 @@
 ---
 title: Zalm-groenten Pakketjes
 description: Makkelijke en gezonde ovenschotel in aluminiumfolie
-image: https://images.unsplash.com/photo-1580476262798-bddd9f4b7369
+image: https://images.unsplash.com/photo-1467003909585-2f8a72700288
 categories: [Diner, Koolhydraatarm, Meal-prep]
 tijd: 25
 portions: 4
