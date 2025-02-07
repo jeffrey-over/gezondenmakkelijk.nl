@@ -11,6 +11,12 @@ collections:
     output: true
     permalink: /recepten/:title/
 
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:title/
+
+
 # Default front matter for recipes
 defaults:
   - scope:
@@ -31,3 +37,5 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+
