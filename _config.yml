@@ -10,8 +10,6 @@ collections:
   recepten:
     output: true
     permalink: /recepten/:title/
-
-collections:
   reviews:
     output: true
     permalink: /reviews/:title/
