@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diner Recepten | Gezonde Recepten</title>
+    <title>Reviews & Tips | Gezonde Recepten</title>
     <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
     <meta name="description" content="Gezonde en lekkere recepten voor elk moment van de dag">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -71,102 +71,51 @@
   <section class="relative py-24 bg-gradient-to-b from-emerald-50 to-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">Diner Recepten</h1>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Heerlijke en gezonde avondmaaltijden voor het hele gezin</p>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">Reviews & Tips</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Ontdek onze eerlijke reviews van maaltijdboxen en handige tips voor gezond koken</p>
       </div>
     </div>
   </section>
 
-  <!-- Recipe Grid -->
+  <!-- Categories Section -->
+  <section class="py-8 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap justify-center gap-4">
+        <button class="filter-button px-6 py-2 rounded-full bg-emerald-600 text-white font-medium hover:bg-emerald-700 transition-colors" data-filter="all">
+          Alles
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="maaltijdboxen">
+          Maaltijdboxen
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="tips">
+          Kooktips
+        </button>
+        <button class="filter-button px-6 py-2 rounded-full bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors" data-filter="vergelijkingen">
+          Vergelijkingen
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles Grid -->
   <section class="py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        
-        <a href="/recepten/kip-zoete-aardappel.md/" class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-          <img 
-            src="https://images.unsplash.com/photo-1529566652340-2c41a1eb6d93" 
-            alt="Kip met zoete aardappel" 
-            class="w-full h-48 object-cover"
-          >
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Kip met zoete aardappel</h3>
-            <p class="text-gray-600 mb-4">Gegrilde kip met zoete aardappel en groenten</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-emerald-600">45 minuten</span>
-              <span class="text-emerald-600 hover:text-emerald-700 font-medium">Bekijk recept →</span>
-            </div>
-          </div>
-        </a>
-        
-        <a href="/recepten/linzensoep/" class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-          <img 
-            src="https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a" 
-            alt="Kruidige Linzensoep" 
-            class="w-full h-48 object-cover"
-          >
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Kruidige Linzensoep</h3>
-            <p class="text-gray-600 mb-4">Verwarmende soep vol eiwitten en groenten</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-emerald-600">40 minuten</span>
-              <span class="text-emerald-600 hover:text-emerald-700 font-medium">Bekijk recept →</span>
-            </div>
-          </div>
-        </a>
-        
-        <a href="/recepten/quinoa-bowl/" class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-          <img 
-            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" 
-            alt="Quinoa Buddha Bowl" 
-            class="w-full h-48 object-cover"
-          >
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Quinoa Buddha Bowl</h3>
-            <p class="text-gray-600 mb-4">Kleurrijke maaltijdsalade met geroosterde groenten</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-emerald-600">30 minuten</span>
-              <span class="text-emerald-600 hover:text-emerald-700 font-medium">Bekijk recept →</span>
-            </div>
-          </div>
-        </a>
-        
-        <a href="/recepten/zalm-groenten-pakketjes/" class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-          <img 
-            src="https://images.unsplash.com/photo-1467003909585-2f8a72700288" 
-            alt="Zalm-groenten Pakketjes" 
-            class="w-full h-48 object-cover"
-          >
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Zalm-groenten Pakketjes</h3>
-            <p class="text-gray-600 mb-4">Makkelijke en gezonde ovenschotel in aluminiumfolie</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-emerald-600">25 minuten</span>
-              <span class="text-emerald-600 hover:text-emerald-700 font-medium">Bekijk recept →</span>
-            </div>
-          </div>
-        </a>
-        
-        <a href="/recepten/zalm-groenten/" class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-          <img 
-            src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327" 
-            alt="Zalm met seizoensgroenten" 
-            class="w-full h-48 object-cover"
-          >
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Zalm met seizoensgroenten</h3>
-            <p class="text-gray-600 mb-4">Gegrilde zalm met seizoensgroenten en quinoa</p>
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-emerald-600">30 minuten</span>
-              <span class="text-emerald-600 hover:text-emerald-700 font-medium">Bekijk recept →</span>
-            </div>
-          </div>
-        </a>
-        
+      </div>
+
+      <!-- No Results Message -->
+      <div id="no-results" class="hidden text-center py-16">
+        <h3 class="text-2xl font-bold text-gray-900 mb-2">Geen artikelen gevonden</h3>
+        <p class="text-gray-600">Probeer andere filters</p>
       </div>
     </div>
   </section>
 </div>
+
+<!-- Include filter script -->
+<script src="/assets/js/filter.js"></script>
+
     </main>
     <!-- Search Modal -->
 <div id="search-modal" class="fixed inset-0 z-50 hidden">
