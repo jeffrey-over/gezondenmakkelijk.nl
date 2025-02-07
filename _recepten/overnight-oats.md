@@ -1,7 +1,7 @@
 ---
 title: Overnight Oats met Rood Fruit
 description: Voedzaam ontbijt met havermout en vers fruit
-image: hhttps://images.unsplash.com/photo-1515544645059-de313dd20a58
+image: https://images.unsplash.com/photo-1490371475955-4cb3bfc72f71
 categories: [Ontbijt, Vegetarisch, Meal-prep]
 tijd: 10
 portions: 2
