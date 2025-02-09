@@ -132,7 +132,9 @@ date: 2024-03-15
             <div class="bg-green-50 p-8 rounded-lg text-center">
                 <h3 class="text-2xl font-bold mb-4">Eindscore: ★★★★☆ (4/5)</h3>
                 <p class="mb-6">HelloFresh is zeker de moeite waard als je op zoek bent naar een gemakkelijke manier om gevarieerd te eten zonder zelf recepten te hoeven bedenken. Met een paar verbeteringen op het gebied van prijs en biologische producten zou het zelfs een 5-sterrenervaring kunnen worden.</p>
-                <a href="https://www.hellofresh.nl" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-colors">
+                <p class="mb-6">Krijg tot wel € 110 op je eerste 6 maaltijdboxen vol verse ingrediënten en lekkere recepten en ervaar het gemak.
+Gebruik de code HS-SKQ3RQ8S0. Veel kookplezier!</p>
+                <a href="https://www.hellofresh.nl/freebox/MjYxOTc3MTMwLTEtMC0xMi1OTA" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-green-700 transition-colors">
                     Bekijk HelloFresh hier
                 </a>
             </div>
