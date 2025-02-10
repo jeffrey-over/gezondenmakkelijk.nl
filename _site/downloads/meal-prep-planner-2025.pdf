@@ -1,225 +1,237 @@
 %PDF-1.7
 1 0 obj
-<<
-  /Type /Catalog
-  /Pages 2 0 R
->>
+<</Type /Catalog
+/Pages 2 0 R>>
 endobj
 
 2 0 obj
-<<
-  /Type /Pages
-  /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R]
-  /Count 5
->>
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R]
+/Count 5>>
 endobj
 
-%% Pagina 1: Coverpagina
 3 0 obj
-<<
-  /Type /Page
-  /Parent 2 0 R
-  /MediaBox [0 0 595 842]
-  /Resources <<
-     /Font <<
-         /F1 <<
-             /Type /Font
-             /Subtype /Type1
-             /BaseFont /Helvetica
-         >>
-     >>
-  >>
-  /Contents 4 0 R
->>
+<</Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595 842]
+/Resources
+<</Font
+<</F1
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica>>>>>>
+/Contents 4 0 R>>
 endobj
 
 4 0 obj
-<< /Length 54 >>
+<</Length 350>>
 stream
 BT
-/F1 36 Tf
-72 750 Td
+/F1 24 Tf
+72 800 Td
 (Meal Prep Planner 2025) Tj
+/F1 14 Tf
+0 -40 Td
+(Je complete gids voor georganiseerd koken) Tj
+0 -40 Td
+(Inclusief:) Tj
+0 -20 Td
+(- Wekelijkse planning templates) Tj
+0 -20 Td
+(- Boodschappenlijst generator) Tj
+0 -20 Td
+(- Portie calculator) Tj
+0 -20 Td
+(- Voorraad tracking systeem) Tj
 ET
 endstream
 endobj
 
-%% Pagina 2: Wekelijkse meal planning templates
 5 0 obj
-<<
-  /Type /Page
-  /Parent 2 0 R
-  /MediaBox [0 0 595 842]
-  /Resources <<
-     /Font <<
-         /F1 <<
-             /Type /Font
-             /Subtype /Type1
-             /BaseFont /Helvetica
-         >>
-     >>
-  >>
-  /Contents 6 0 R
->>
+<</Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595 842]
+/Resources
+<</Font
+<</F1
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica>>>>>>
+/Contents 6 0 R>>
 endobj
 
 6 0 obj
-<< /Length 348 >>
+<</Length 450>>
 stream
 BT
-/F1 24 Tf
+/F1 18 Tf
 72 800 Td
-(Wekelijkse meal planning templates) Tj
-72 770 Td
-(Maandag: _______________) Tj
-72 740 Td
-(Dinsdag: _______________) Tj
-72 710 Td
-(Woensdag: _______________) Tj
-72 680 Td
-(Donderdag: _____________) Tj
-72 650 Td
-(Vrijdag: _______________) Tj
-72 620 Td
-(Zaterdag: _____________) Tj
-72 590 Td
-(Zondag: _______________) Tj
+(Wekelijkse Meal Planning) Tj
+/F1 12 Tf
+0 -30 Td
+(Week: _______________) Tj
+0 -30 Td
+(Maandag:     _______________ | Bereidingstijd: _____ min) Tj
+0 -30 Td
+(Dinsdag:      _______________ | Bereidingstijd: _____ min) Tj
+0 -30 Td
+(Woensdag:    _______________ | Bereidingstijd: _____ min) Tj
+0 -30 Td
+(Donderdag:   _______________ | Bereidingstijd: _____ min) Tj
+0 -30 Td
+(Vrijdag:      _______________ | Bereidingstijd: _____ min) Tj
+0 -30 Td
+(Zaterdag:     _______________ | Bereidingstijd: _____ min) Tj
+0 -30 Td
+(Zondag:       _______________ | Bereidingstijd: _____ min) Tj
 ET
 endstream
 endobj
 
-%% Pagina 3: Boodschappenlijst generator
 7 0 obj
-<<
-  /Type /Page
-  /Parent 2 0 R
-  /MediaBox [0 0 595 842]
-  /Resources <<
-     /Font <<
-         /F1 <<
-             /Type /Font
-             /Subtype /Type1
-             /BaseFont /Helvetica
-         >>
-     >>
-  >>
-  /Contents 8 0 R
->>
+<</Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595 842]
+/Resources
+<</Font
+<</F1
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica>>>>>>
+/Contents 8 0 R>>
 endobj
 
 8 0 obj
-<< /Length 279 >>
+<</Length 500>>
 stream
 BT
-/F1 24 Tf
+/F1 18 Tf
 72 800 Td
-(Boodschappenlijst generator) Tj
-72 770 Td
-(- Artikel 1: ______________) Tj
-72 740 Td
-(- Artikel 2: ______________) Tj
-72 710 Td
-(- Artikel 3: ______________) Tj
-72 680 Td
-(- Artikel 4: ______________) Tj
-72 650 Td
-(- Artikel 5: ______________) Tj
+(Boodschappenlijst Generator) Tj
+/F1 12 Tf
+0 -30 Td
+(Datum: _______________) Tj
+0 -30 Td
+(Groenten & Fruit:) Tj
+0 -20 Td
+(_______________ | Hoeveelheid: _____) Tj
+0 -20 Td
+(_______________ | Hoeveelheid: _____) Tj
+0 -30 Td
+(Vlees & Vis:) Tj
+0 -20 Td
+(_______________ | Hoeveelheid: _____) Tj
+0 -20 Td
+(_______________ | Hoeveelheid: _____) Tj
+0 -30 Td
+(Houdbare producten:) Tj
+0 -20 Td
+(_______________ | Hoeveelheid: _____) Tj
+0 -20 Td
+(_______________ | Hoeveelheid: _____) Tj
 ET
 endstream
 endobj
 
-%% Pagina 4: Portie calculator
 9 0 obj
-<<
-  /Type /Page
-  /Parent 2 0 R
-  /MediaBox [0 0 595 842]
-  /Resources <<
-     /Font <<
-         /F1 <<
-             /Type /Font
-             /Subtype /Type1
-             /BaseFont /Helvetica
-         >>
-     >>
-  >>
-  /Contents 10 0 R
->>
+<</Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595 842]
+/Resources
+<</Font
+<</F1
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica>>>>>>
+/Contents 10 0 R>>
 endobj
 
 10 0 obj
-<< /Length 173 >>
+<</Length 400>>
 stream
 BT
-/F1 24 Tf
+/F1 18 Tf
 72 800 Td
-(Portie calculator) Tj
-72 770 Td
-(Aantal personen: ______) Tj
-72 740 Td
-(Gezien portie: ______) Tj
-72 710 Td
-(Totaal benodigde porties: ______) Tj
+(Portie Calculator) Tj
+/F1 12 Tf
+0 -30 Td
+(Recept: _______________) Tj
+0 -30 Td
+(Aantal personen: _____) Tj
+0 -30 Td
+(Standaard portie (gram/ml): _____) Tj
+0 -30 Td
+(Berekening:) Tj
+0 -20 Td
+(Ingredienten           Standaard    Aangepast) Tj
+0 -20 Td
+(_______________ |     _____ g  |   _____ g) Tj
+0 -20 Td
+(_______________ |     _____ g  |   _____ g) Tj
+0 -20 Td
+(_______________ |     _____ g  |   _____ g) Tj
 ET
 endstream
 endobj
 
-%% Pagina 5: Voorraad tracking systeem
 11 0 obj
-<<
-  /Type /Page
-  /Parent 2 0 R
-  /MediaBox [0 0 595 842]
-  /Resources <<
-     /Font <<
-         /F1 <<
-             /Type /Font
-             /Subtype /Type1
-             /BaseFont /Helvetica
-         >>
-     >>
-  >>
-  /Contents 12 0 R
->>
+<</Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 595 842]
+/Resources
+<</Font
+<</F1
+<</Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica>>>>>>
+/Contents 12 0 R>>
 endobj
 
 12 0 obj
-<< /Length 225 >>
+<</Length 450>>
 stream
 BT
-/F1 24 Tf
+/F1 18 Tf
 72 800 Td
-(Voorraad tracking systeem) Tj
-72 770 Td
-(Artikel: __________  |  Voorraad: ______) Tj
-72 740 Td
-(Artikel: __________  |  Voorraad: ______) Tj
-72 710 Td
-(Artikel: __________  |  Voorraad: ______) Tj
+(Voorraad Tracking Systeem) Tj
+/F1 12 Tf
+0 -30 Td
+(Datum laatste update: _______________) Tj
+0 -30 Td
+(Product              Voorraad    Min. niveau    Bestellen?) Tj
+0 -20 Td
+(_______________ |    _____ |     _____ |        [ ] Ja) Tj
+0 -20 Td
+(_______________ |    _____ |     _____ |        [ ] Ja) Tj
+0 -20 Td
+(_______________ |    _____ |     _____ |        [ ] Ja) Tj
+0 -20 Td
+(_______________ |    _____ |     _____ |        [ ] Ja) Tj
+0 -20 Td
+(_______________ |    _____ |     _____ |        [ ] Ja) Tj
 ET
 endstream
 endobj
 
-%% xref-tabel (offsets zijn indicatief)
 xref
 0 13
-0000000000 65535 f 
-0000000010 00000 n 
-0000000079 00000 n 
-0000000175 00000 n 
-0000000289 00000 n 
-0000000367 00000 n 
-0000000490 00000 n 
-0000000623 00000 n 
-0000000710 00000 n 
-0000000835 00000 n 
-0000000952 00000 n 
-0000001068 00000 n 
+0000000000 65535 f
+0000000009 00000 n
+0000000056 00000 n
+0000000127 00000 n
+0000000283 00000 n
+0000000684 00000 n
+0000000840 00000 n
+0000001341 00000 n
+0000001497 00000 n
+0000002048 00000 n
+0000002205 00000 n
+0000002656 00000 n
+0000002814 00000 n
+
 trailer
-<<
-  /Size 13
-  /Root 1 0 R
->>
+<</Size 13
+/Root 1 0 R>>
 startxref
-1170
+3315
 %%EOF

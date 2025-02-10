@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-
+    {% if site.url %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  {% endif %}
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNRFQBP4C0"></script>
 <script>

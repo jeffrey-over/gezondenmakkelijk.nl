@@ -1,7 +1,7 @@
 # Site settings
 title: Gezonde Recepten
 description: Gezonde en lekkere recepten voor elk moment van de dag
-
+url: "https://www.gezondenmakkelijk.nl"  # voeg dit toe
 # Build settings
 markdown: kramdown
 

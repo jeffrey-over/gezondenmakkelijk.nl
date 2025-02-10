@@ -95,10 +95,10 @@ date: 2025-02-09
             <div class="bg-white p-6 rounded-lg shadow-sm mb-6">
                 <h3 class="font-bold mb-4">Favoriete Meal Prep Recepten:</h3>
                 <ol class="list-decimal pl-6 space-y-2">
-                    <li>Quinoa bowl met geroosterde groenten</li>
-                    <li>Kip met zoete aardappel en broccoli</li>
-                    <li>Linzencurry met rijst</li>
-                    <li>Overnight oats variaties</li>
+                    <li><a href="/recepten/quinoa-bowl">Quinoa bowl met geroosterde groenten</a></li>
+                    <li><a href="/recepten/kip-zoete-aardappel">Kip met zoete aardappel en broccoli</a></li>
+                    <li><a href="/recepten/linzensoep">Linzencurry met rijst</a></li>
+                    <li><a href="/recepten/overnight-oats">Overnight oats variaties</a></li>
                 </ol>
             </div>
 
