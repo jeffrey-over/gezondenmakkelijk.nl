@@ -1,7 +1,7 @@
 ---
 title: Energieballen
 description: Gezonde energieballen met dadels en noten
-image: https://images.unsplash.com/photo-1505576399279-565b52d4ac71
+image: https://images.pexels.com/photos/11136561/pexels-photo-11136561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Snacks, Vegetarisch]
 tijd: 15
 portions: 12

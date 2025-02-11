@@ -1,7 +1,7 @@
 ---
 title: Kip met zoete aardappel
 description: Gegrilde kip met zoete aardappel en groenten
-image: https://images.unsplash.com/photo-1529566652340-2c41a1eb6d93
+image: https://images.pexels.com/photos/6210876/pexels-photo-6210876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Diner, Meal-prep, Koolhydraatarm]
 tijd: 45
 portions: 4

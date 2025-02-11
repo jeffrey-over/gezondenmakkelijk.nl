@@ -1,7 +1,7 @@
 ---
 title: Homemade Granola
 description: Knapperige zelfgemaakte granola met noten en zaden
-image: https://images.unsplash.com/photo-1517093702248-8363f26c4012
+image: https://images.pexels.com/photos/6068870/pexels-photo-6068870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Ontbijt, Snacks, Vegetarisch]
 tijd: 40
 portions: 10

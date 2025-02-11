@@ -1,7 +1,7 @@
 ---
 title: Zoete Aardappel Toast
 description: Gezond alternatief voor toast met diverse toppings
-image: https://images.unsplash.com/photo-1596573405462-c88b5e6a65d7
+image: https://images.pexels.com/photos/7664377/pexels-photo-7664377.jpeg
 categories: [Ontbijt, Lunch, Koolhydraatarm]
 tijd: 25
 portions: 2

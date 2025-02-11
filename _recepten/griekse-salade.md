@@ -1,7 +1,7 @@
 ---
 title: Griekse Salade
 description: Frisse Griekse salade met feta en olijven
-image: https://images.unsplash.com/photo-1608032077018-c9acd386a151
+image: https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Lunch, Vegetarisch, Koolhydraatarm]
 tijd: 15
 portions: 2

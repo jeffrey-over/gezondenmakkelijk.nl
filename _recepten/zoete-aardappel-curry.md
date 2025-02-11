@@ -1,7 +1,7 @@
 ---
 title: Zoete Aardappel Curry
 description: Romige curry met zoete aardappel, spinazie en kikkererwten
-image: https://images.unsplash.com/photo-1604423043492-41303788de80
+image: https://images.pexels.com/photos/2679501/pexels-photo-2679501.jpeg
 categories: [Diner, Vegetarisch, Meal-prep]
 tijd: 35
 portions: 4

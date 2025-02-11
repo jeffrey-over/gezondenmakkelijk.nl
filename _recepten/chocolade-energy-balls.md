@@ -1,7 +1,7 @@
 ---
 title: Chocolade Energy Balls
 description: Gezonde energieballen met cacao en dadels
-image: https://images.unsplash.com/photo-1604329760661-e71dc83f8f26
+image: https://images.pexels.com/photos/28286195/pexels-photo-28286195/free-photo-of-veganistische-cacao-en-frambozenhapjes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Snacks, Vegetarisch]
 tijd: 20
 portions: 15

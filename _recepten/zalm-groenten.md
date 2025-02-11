@@ -1,7 +1,7 @@
 ---
 title: Zalm met seizoensgroenten
 description: Gegrilde zalm met seizoensgroenten en quinoa
-image: https://images.unsplash.com/photo-1476224203421-9ac39bcb3327
+image: https://images.pexels.com/photos/29145280/pexels-photo-29145280/free-photo-of-chef-kok-serveert-gegrilde-zalm-en-groenten.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Diner, Koolhydraatarm]
 tijd: 30
 portions: 2

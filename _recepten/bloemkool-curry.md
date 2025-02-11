@@ -1,7 +1,7 @@
 ---
 title: Bloemkool Curry met Linzen
 description: Romige curry met bloemkool, linzen en kokosmelk
-image: https://images.unsplash.com/photo-1631452180519-c014fe946bc7
+image: https://images.pexels.com/photos/19834445/pexels-photo-19834445/free-photo-of-voedsel-eten-maaltijd-tafel.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Diner, Vegetarisch, Koolhydraatarm]
 tijd: 35
 portions: 4

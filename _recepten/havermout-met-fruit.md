@@ -1,7 +1,7 @@
 ---
 title: Havermout met vers fruit
 description: Een voedzaam ontbijt met havermout, vers fruit en honing
-image: https://images.unsplash.com/photo-1484723091739-30a097e8f929
+image: https://images.pexels.com/photos/9027530/pexels-photo-9027530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Ontbijt, Vegetarisch]
 tijd: 20
 portions: 2

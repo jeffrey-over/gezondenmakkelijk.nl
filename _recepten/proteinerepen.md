@@ -1,7 +1,7 @@
 ---
 title: Homemade Proteïnerepen
 description: Gezonde proteïnerepen met noten en zaden
-image: https://images.unsplash.com/photo-1622484211817-92c7dbc47ce4
+image: https://images.pexels.com/photos/12242245/pexels-photo-12242245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Snacks, Vegetarisch]
 tijd: 20
 portions: 12

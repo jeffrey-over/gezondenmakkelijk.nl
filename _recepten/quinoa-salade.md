@@ -1,7 +1,7 @@
 ---
 title: Quinoa Salade
 description: Frisse salade met quinoa, avocado en gegrilde groenten
-image: https://images.unsplash.com/photo-1540914124281-342587941389
+image: https://images.pexels.com/photos/30302266/pexels-photo-30302266/free-photo-of-heerlijke-zelfgemaakte-groentelasagne-op-marmer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Lunch, Vegetarisch, Koolhydraatarm]
 tijd: 25
 portions: 2

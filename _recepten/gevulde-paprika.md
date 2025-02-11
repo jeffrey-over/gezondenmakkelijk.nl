@@ -1,7 +1,7 @@
 ---
 title: Gevulde Paprika's met Quinoa
 description: Kleurrijke paprika's gevuld met quinoa en groenten
-image: https://images.unsplash.com/photo-1604068549290-dea0e4a305ca
+image: https://images.pexels.com/photos/1438540/pexels-photo-1438540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Diner, Vegetarisch, Meal-prep, Koolhydraatarm]
 tijd: 45
 portions: 4
