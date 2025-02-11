@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Sitemap: https://gezonderecepten.nl/sitemap.xml
+
+# Allow all bots to access everything
+User-agent: *
+Disallow:
+
+# Prevent media files from being indexed
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.webp$
+
+# Allow Google Images to index images
+User-agent: Googlebot-Image
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Prevent caching of search results
+User-agent: *
+Disallow: /search/
+Disallow: /*?q=*

@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poké Bowl met Zalm | Gezonde Recepten</title>
+    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <meta name="description" content="Verse poké bowl met zalm, avocado en edamame">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="canonical" href="http://localhost:4000/recepten/zalm-bowl/" />
+  
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LNRFQBP4C0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LNRFQBP4C0');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1194105139225227"
+     crossorigin="anonymous"></script>
+  
+    
+    <script defer src="/assets/js/search.js"></script>
+    
+    <script defer src="/assets/js/search-modal.js"></script>
+   
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200">
+
+
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  shadow-sm">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand -->
+                <a href="/" class="text-xl font-bold text-emerald-600">
+                    <span class="text-2xl font-bold text-emerald-600">Gezond</span><span class="text-2xl font-light text-gray-600">&Makkelijk</span>
+                </a>
+    
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/" class="text-gray-600 hover:text-emerald-600 transition-colors">Home</a>
+                    <a href="/recepten" class="text-gray-600 hover:text-emerald-600 transition-colors">Recepten</a>
+                    <a href="/categorieen" class="text-gray-600 hover:text-emerald-600 transition-colors">Categorieën</a>
+                    <a href="/reviews" class="text-gray-600 hover:text-emerald-600 transition-colors">Reviews & Tips</a>
+                    <a href="/over-ons" class="text-gray-600 hover:text-emerald-600 transition-colors">Over Ons</a>
+                    <button 
+                        id="header-search-button" 
+                        type="button"
+                        class="inline-flex items-center bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition-colors"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        Zoeken
+                    </button>
+                </div>
+    
+                <!-- Mobile Menu Button -->
+                <button 
+                    type="button" 
+                    class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-emerald-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500"
+                    onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+                >
+                    <span class="sr-only">Open menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-emerald-600 hover:bg-gray-100">Home</a>
+                    <a href="/recepten" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-emerald-600 hover:bg-gray-100">Recepten</a>
+                    <a href="/categorieen" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-emerald-600 hover:bg-gray-100">Categorieën</a>
+                    <a href="/reviews" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-emerald-600 hover:bg-gray-100">Reviews & Tips</a>
+                    <a href="/over-ons" class="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-emerald-600 hover:bg-gray-100">Over Ons</a>
+                    <button 
+                        type="button"
+                        class="w-full mt-2 inline-flex items-center justify-center bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition-colors"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        Zoeken
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+    <main>
+        <article class="pt-32">
+    <!-- Recipe Header -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <nav class="flex mb-8" aria-label="Breadcrumb">
+            <ol class="flex items-center flex-wrap text-sm">
+                <li class="flex items-center">
+                    <a href="/" class="text-gray-500 hover:text-emerald-600">Home</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                </li>
+                <li class="flex items-center">
+                    <a href="/recepten" class="text-gray-500 hover:text-emerald-600">Recepten</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="text-emerald-600 break-words">Poké Bowl met Zalm</span>
+                </li>
+            </ol>
+        </nav>
+        
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Poké Bowl met Zalm</h1>
+        <div class="flex flex-wrap gap-4 mb-8">
+            <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span class="text-gray-600">20 min</span>
+            </div>
+            <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+                <span class="text-gray-600">2 personen</span>
+            </div>
+          <!--  <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                <span class="text-gray-600"></span>
+            </div>-->
+        </div>
+    </div>
+
+    <!-- Recipe Image -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Poké Bowl met Zalm" class="w-full h-96 object-cover rounded-2xl">
+    </div>
+
+    <!-- Recipe Content -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Ingredients -->
+            <div class="md:col-span-1">
+                <div class="bg-gray-50 rounded-2xl p-6 sticky top-24">
+                    <h2 class="text-xl font-bold text-gray-900 mb-4">Ingrediënten</h2>
+                    <ul class="space-y-3">
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">250g verse zalm</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">200g sushirijst</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">1 avocado</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">100g edamame</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">1 komkommer</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">2 radijsjes</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">2 el sesamzaad</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">Wasabi naar smaak</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">{"Voor de dressing"=>nil}</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">3 el sojasaus</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">1 el sesamolie</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">1 el rijstazijn</span>
+                        </li>
+                        
+                        <li class="flex items-center gap-3">
+                            <input type="checkbox" class="rounded border-gray-300 text-emerald-600 focus:ring-emerald-500">
+                            <span class="text-gray-700">1 tl honing</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="md:col-span-2">
+                <h2 class="text-xl font-bold text-gray-900 mb-6">Bereidingswijze</h2>
+                <div class="space-y-6">
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            1
+                        </div>
+                        <p class="text-gray-700">Kook de sushirijst volgens de verpakking.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            2
+                        </div>
+                        <p class="text-gray-700">Snijd de zalm in blokjes van 1,5cm.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            3
+                        </div>
+                        <p class="text-gray-700">Snijd de avocado in plakjes.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            4
+                        </div>
+                        <p class="text-gray-700">Snijd de komkommer in halve maantjes.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            5
+                        </div>
+                        <p class="text-gray-700">Snijd de radijsjes in dunne plakjes.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            6
+                        </div>
+                        <p class="text-gray-700">Meng alle ingrediënten voor de dressing.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            7
+                        </div>
+                        <p class="text-gray-700">Verdeel de rijst over twee kommen.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            8
+                        </div>
+                        <p class="text-gray-700">Verdeel alle toppings mooi over de rijst.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            9
+                        </div>
+                        <p class="text-gray-700">Bestrooi met sesamzaad.</p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-8 h-8 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center font-bold">
+                            10
+                        </div>
+                        <p class="text-gray-700">Serveer met de dressing en wasabi.</p>
+                    </div>
+                    
+                </div>
+
+
+
+
+
+
+            <!-- Share Buttons -->
+
+            
+
+
+
+            <div class="mt-12 pt-8 border-t">
+                <h3 class="text-lg font-bold text-gray-900 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="18" cy="5" r="3"/>
+                        <circle cx="6" cy="12" r="3"/>
+                        <circle cx="18" cy="19" r="3"/>
+                        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                    </svg>
+                    Deel dit recept
+                </h3>
+                <div class="flex flex-wrap gap-4 md:gap-6">
+                    <button 
+                        onclick="shareToFacebook('http://localhost:4000/recepten/zalm-bowl/')"
+                        class="flex items-center gap-2 bg-[#1877F2] text-white px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-[#166FE5] transition-colors"
+                        aria-label="Deel op Facebook"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                        </svg>
+                        Facebook
+                    </button>
+                    <button 
+                        onclick="shareToTwitter('Poké Bowl met Zalm', 'http://localhost:4000/recepten/zalm-bowl/')"
+                        class="flex items-center gap-2 bg-[#1DA1F2] text-white px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-[#1A91DA] transition-colors"
+                        aria-label="Deel op Twitter"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                        </svg>
+                        Twitter
+                    </button>
+                    <button 
+                        onclick="shareToWhatsApp('Poké Bowl met Zalm', 'http://localhost:4000/recepten/zalm-bowl/')"
+                        class="flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-[#22BF5B] transition-colors"
+                        aria-label="Deel via WhatsApp"
+                    >
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+                        </svg>
+                        WhatsApp
+                    </button>
+                    <button 
+                        onclick="printRecipe()"
+                        class="flex items-center gap-2 bg-gray-200 text-gray-700 px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-gray-300 transition-colors"
+                        aria-label="Print recept"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 6 2 18 2 18 9"/>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+                            <rect x="6" y="14" width="12" height="8"/>
+                        </svg>
+                        Print
+                    </button>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    
+
+
+
+
+    <!-- Related Recipes -->
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+        <h2 class="text-2xl font-bold text-gray-900 mb-8">Gerelateerde Recepten</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+                <a href="/recepten/avocado-kip-salade/" class="block">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.Bd888Z8La_CYUoI547D33AHaLH&w=474&h=474&c=7" alt="Avocado-Kip Salade" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Avocado-Kip Salade</h3>
+                        <p class="text-gray-600 text-sm">Frisse salade met kip, avocado en limoen</p>
+                    </div>
+                </a>
+            </article>
+            
+            <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+                <a href="/recepten/bloemkoolrijst-groenten-kip/" class="block">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.GJXv8HfPOlT4pVgybi4NeAHaLH&w=474&h=474&c=7" alt="Bloemkoolrijst met Groenten en Kip" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Bloemkoolrijst met Groenten en Kip</h3>
+                        <p class="text-gray-600 text-sm">Een koolhydraatarme maaltijd vol smaak en kleur</p>
+                    </div>
+                </a>
+            </article>
+            
+            <article class="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+                <a href="/recepten/energieballen/" class="block">
+                    <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71" alt="Energieballen" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Energieballen</h3>
+                        <p class="text-gray-600 text-sm">Gezonde energieballen met dadels en noten</p>
+                    </div>
+                </a>
+            </article>
+            
+        </div>
+    </div>
+</article>
+
+
+<script src="/assets/js/share.js"></script>
+
+    </main>
+    <!-- Search Modal -->
+<div id="search-modal" class="fixed inset-0 z-50 hidden">
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-gray-900/50 backdrop-blur-sm"></div>
+    
+    <!-- Modal -->
+    <div class="relative min-h-screen flex items-start justify-center pt-24 px-4">
+      <div class="w-full max-w-2xl bg-white rounded-2xl shadow-xl">
+        <!-- Search Header -->
+        <div class="flex items-center justify-between p-4 border-b border-gray-200">
+          <h2 class="text-lg font-semibold text-gray-900">Zoeken</h2>
+          <button id="close-search" class="p-2 text-gray-500 hover:text-gray-700 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        
+        <!-- Search Input -->
+        <div class="p-4">
+          <div class="relative">
+            <input 
+              type="search" 
+              id="modal-search"
+              placeholder="Zoek recepten..." 
+              class="w-full px-6 py-4 bg-gray-50 border border-gray-200 rounded-full shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+              autofocus
+            >
+            <span class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </span>
+          </div>
+        </div>
+        
+        <!-- Search Results -->
+        <div id="search-results" class="max-h-[60vh] overflow-y-auto p-4">
+          <div class="space-y-4">
+            
+            <a href="/recepten/avocado-kip-salade/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Bd888Z8La_CYUoI547D33AHaLH&w=474&h=474&c=7" alt="Avocado-Kip Salade" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Avocado-Kip Salade</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Frisse salade met kip, avocado en limoen</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">20 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/bloemkoolrijst-groenten-kip/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.GJXv8HfPOlT4pVgybi4NeAHaLH&w=474&h=474&c=7" alt="Bloemkoolrijst met Groenten en Kip" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Bloemkoolrijst met Groenten en Kip</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Een koolhydraatarme maaltijd vol smaak en kleur</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">30 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/energieballen/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71" alt="Energieballen" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Energieballen</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Gezonde energieballen met dadels en noten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Snacks
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">15 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/griekse-salade/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1608032077018-c9acd386a151" alt="Griekse Salade" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Griekse Salade</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Frisse Griekse salade met feta en olijven</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">15 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/groene-power-smoothie/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd" alt="Groene Power Smoothie" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Groene Power Smoothie</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Voedzame groene smoothie vol vitamines en mineralen</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">5 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/groene-smoothie-bowl/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1589017605676-3b1e553a60ed" alt="Groene Smoothie Bowl" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Groene Smoothie Bowl</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Voedzame ontbijtbowl vol vitamines en mineralen</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">10 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/havermout-koekjes/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1536669402438-004d53bd9af5?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D3e" alt="Gezonde Havermout Koekjes" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Gezonde Havermout Koekjes</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Suikervrije koekjes perfect als tussendoortje</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Snacks
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">25 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/havermout-met-fruit/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929" alt="Havermout met vers fruit" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Havermout met vers fruit</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Een voedzaam ontbijt met havermout, vers fruit en honing</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">20 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/havermoutrepen-noten-honing/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.mmOcBX4_tfbFecLykcjrmQAAAA&w=474&h=474&c=7" alt="Havermoutrepen met Noten en Honing" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Havermoutrepen met Noten en Honing</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Perfecte snack voor onderweg of als ontbijt</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">40 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/kip-zoete-aardappel/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1529566652340-2c41a1eb6d93" alt="Kip met zoete aardappel" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Kip met zoete aardappel</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Gegrilde kip met zoete aardappel en groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">45 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/linzensoep/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1510431198580-7727c9fa1e3a" alt="Kruidige Linzensoep" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Kruidige Linzensoep</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Verwarmende soep vol eiwitten en groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">40 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/overnight-oats/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1490371475955-4cb3bfc72f71" alt="Overnight Oats met Rood Fruit" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Overnight Oats met Rood Fruit</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Voedzaam ontbijt met havermout en vers fruit</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Ontbijt
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">10 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/quinoa-bowl/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Quinoa Buddha Bowl" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Quinoa Buddha Bowl</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Kleurrijke maaltijdsalade met geroosterde groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">30 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/quinoa-salade/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1540914124281-342587941389" alt="Quinoa Salade" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Quinoa Salade</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Frisse salade met quinoa, avocado en gegrilde groenten</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">25 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/vegetarische-courgette-lasagne/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Rhfuhu-hupiWBB0Ko98qDQHaLG&w=474&h=474&c=7" alt="Vegetarische Courgette Lasagne" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Vegetarische Courgette Lasagne</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Een gezonde lasagne zonder pasta</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">45 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/zalm-bowl/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Poké Bowl met Zalm" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Poké Bowl met Zalm</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Verse poké bowl met zalm, avocado en edamame</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Lunch
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">20 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/zalm-groenten-pakketjes/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288" alt="Zalm-groenten Pakketjes" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Zalm-groenten Pakketjes</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Makkelijke en gezonde ovenschotel in aluminiumfolie</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">25 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/recepten/zalm-groenten/" class="modal-recipe-card block p-4 rounded-lg hover:bg-gray-50 transition-colors">
+              <div class="flex gap-4">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327" alt="Zalm met seizoensgroenten" class="w-20 h-20 rounded-lg object-cover">
+                <div class="flex-1">
+                  <h3 class="modal-recipe-title font-semibold text-gray-900">Zalm met seizoensgroenten</h3>
+                  <p class="modal-recipe-description text-sm text-gray-600 line-clamp-2">Gegrilde zalm met seizoensgroenten en quinoa</p>
+                  <div class="flex gap-2 mt-2">
+                    
+                    <span class="modal-recipe-category px-2 py-1 text-xs rounded-full bg-emerald-100 text-emerald-800">
+                      Diner
+                    </span>
+                    
+                    <span class="px-2 py-1 text-xs text-gray-500">30 min</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          
+          <!-- No Results Message -->
+          <div id="modal-no-results" class="hidden text-center py-8">
+            <h3 class="text-lg font-semibold text-gray-900 mb-2">Geen recepten gevonden</h3>
+            <p class="text-gray-600">Probeer andere zoektermen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="bg-white border-t border-gray-200 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Over Ons</h3>
+                <p class="text-gray-600">
+                    Gezond & Makkelijk helpt je om elke dag weer gezonde en lekkere maaltijden op tafel te zetten.
+                </p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Categorieën</h3>
+                <ul class="space-y-2">
+                    <li><a href="/categorie/ontbijt" class="text-gray-600 hover:text-emerald-600">Ontbijt</a></li>
+                    <li><a href="/categorie/lunch" class="text-gray-600 hover:text-emerald-600">Lunch</a></li>
+                    <li><a href="/categorie/diner" class="text-gray-600 hover:text-emerald-600">Diner</a></li>
+                    <li><a href="/categorie/snacks" class="text-gray-600 hover:text-emerald-600">Snacks</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="/over-ons" class="text-gray-600 hover:text-emerald-600">Over Ons</a></li>
+                    <li><a href="/contact" class="text-gray-600 hover:text-emerald-600">Contact</a></li>
+                    <li><a href="/privacy" class="text-gray-600 hover:text-emerald-600">Privacy</a></li>
+                    <li><a href="/voorwaarden" class="text-gray-600 hover:text-emerald-600">Voorwaarden</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-gray-900 mb-4">Nieuwsbrief</h3>
+                <p class="text-gray-600 mb-4">
+                    Schrijf je in voor wekelijkse recepten
+                </p>
+                <form class="space-y-4" action="https://formspree.io/f/mkgozzpb" method="POST">
+                    <input 
+                        type="email" 
+                        placeholder="jouw@email.nl" 
+                        class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                    >
+                    <input 
+                        type="hidden" 
+                        value="honeypot"
+                        name="honeypot"
+                    >
+                    <button class="w-full bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition-colors">
+                        Inschrijven
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
+            <p>&copy; 2024 Gezond & Makkelijk. Alle rechten voorbehouden.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
