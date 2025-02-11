@@ -24,5 +24,5 @@ instructions:
   - Bekleed een bakvorm met bakpapier.
   - Druk het mengsel stevig aan in de vorm.
   - Zet minimaal 2 uur in de koelkast.
-  - Snijd in 12 repen.
+  - Snijd in 12 repen. 
 ---
