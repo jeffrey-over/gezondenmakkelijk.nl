@@ -114,7 +114,7 @@ date: 2025-01-16
                             <th class="px-4 py-3 text-left">Model</th>
                             <th class="px-4 py-3 text-left">Capaciteit</th>
                             <th class="px-4 py-3 text-left">Functies</th>
-                            <th class="px-4 py-3 text-left">Prijs</th>
+                    
                             <th class="px-4 py-3 text-left">Score</th>
                         </tr>
                     </thead>
@@ -123,21 +123,21 @@ date: 2025-01-16
                             <td class="px-4 py-3">Zojirushi NS-ZCC10</td>
                             <td class="px-4 py-3">5.5 cups</td>
                             <td class="px-4 py-3">Fuzzy logic, multiple menu</td>
-                            <td class="px-4 py-3">€199</td>
+                          
                             <td class="px-4 py-3">4.9/5</td>
                         </tr>
                         <tr>
                             <td class="px-4 py-3">Aroma ARC-914SBD</td>
                             <td class="px-4 py-3">4 cups</td>
                             <td class="px-4 py-3">Stomen, warmhouden</td>
-                            <td class="px-4 py-3">€89</td>
+                          
                             <td class="px-4 py-3">4.5/5</td>
                         </tr>
                         <tr>
                             <td class="px-4 py-3">Philips HD3011/08</td>
                             <td class="px-4 py-3">6 cups</td>
                             <td class="px-4 py-3">Basis functies</td>
-                            <td class="px-4 py-3">€49</td>
+                         
                             <td class="px-4 py-3">4.2/5</td>
                         </tr>
                     </tbody>
