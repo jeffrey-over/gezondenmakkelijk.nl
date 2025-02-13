@@ -9,7 +9,7 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
 
-  
+
 # Collections
 collections:
   recepten:
@@ -18,7 +18,6 @@ collections:
   reviews:
     output: true
     permalink: /reviews/:title/
-
 
 # Default front matter for recipes
 defaults:
