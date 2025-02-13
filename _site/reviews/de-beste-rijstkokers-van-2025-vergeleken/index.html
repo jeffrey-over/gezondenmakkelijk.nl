@@ -378,63 +378,69 @@
 
   </div>
 
-       <!-- Share Buttons -->
-<div class="mt-12 pt-8 border-t">
-  <h3 class="text-lg font-bold text-gray-900 mb-4">
-      <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="18" cy="5" r="3"/>
-          <circle cx="6" cy="12" r="3"/>
-          <circle cx="18" cy="19" r="3"/>
-          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-      </svg>
-      Deel dit recept
-  </h3>
-  <div class="flex gap-4">
-      <button 
-          onclick="shareToFacebook('http://localhost:4000/reviews/de-beste-rijstkokers-van-2025-vergeleken/')"
-          class="flex items-center gap-2 bg-[#1877F2] text-white px-4 py-2 rounded-lg hover:bg-[#166FE5] transition-colors"
-          aria-label="Deel op Facebook"
-      >
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-          </svg>
-          Facebook
-      </button>
-      <button 
-          onclick="shareToTwitter('De Beste Rijstkokers van 2025 Vergeleken', 'http://localhost:4000/reviews/de-beste-rijstkokers-van-2025-vergeleken/')"
-          class="flex items-center gap-2 bg-[#1DA1F2] text-white px-4 py-2 rounded-lg hover:bg-[#1A91DA] transition-colors"
-          aria-label="Deel op Twitter"
-      >
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
-          </svg>
-          Twitter
-      </button>
-      <button 
-          onclick="shareToWhatsApp('De Beste Rijstkokers van 2025 Vergeleken', 'http://localhost:4000/reviews/de-beste-rijstkokers-van-2025-vergeleken/')"
-          class="flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg hover:bg-[#22BF5B] transition-colors"
-          aria-label="Deel via WhatsApp"
-      >
-          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
-          </svg>
-          WhatsApp
-      </button>
-      <button 
-          onclick="printRecipe()"
-          class="flex items-center gap-2 bg-gray-200 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors"
-          aria-label="Print recept"
-      >
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="6 9 6 2 18 2 18 9"/>
-              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
-              <rect x="6" y="14" width="12" height="8"/>
-          </svg>
-          Print
-      </button>
-  </div>
-</div>
+       <!-- Share Buttons -->     
+
+
+
+            <div class="mt-12 pt-8 border-t">
+              <h3 class="text-lg font-bold text-gray-900 mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="18" cy="5" r="3"/>
+                      <circle cx="6" cy="12" r="3"/>
+                      <circle cx="18" cy="19" r="3"/>
+                      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                  </svg>
+                  Deel dit recept
+              </h3>
+              <div class="flex flex-wrap gap-4 md:gap-6">
+                  <button 
+                      onclick="shareToFacebook('http://localhost:4000/reviews/de-beste-rijstkokers-van-2025-vergeleken/')"
+                      class="flex items-center gap-2 bg-[#1877F2] text-white px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-[#166FE5] transition-colors"
+                      aria-label="Deel op Facebook"
+                  >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                      </svg>
+                      Facebook
+                  </button>
+                  <button 
+                      onclick="shareToTwitter('De Beste Rijstkokers van 2025 Vergeleken', 'http://localhost:4000/reviews/de-beste-rijstkokers-van-2025-vergeleken/')"
+                      class="flex items-center gap-2 bg-[#1DA1F2] text-white px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-[#1A91DA] transition-colors"
+                      aria-label="Deel op Twitter"
+                  >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                      </svg>
+                      Twitter
+                  </button>
+                  <button 
+                      onclick="shareToWhatsApp('De Beste Rijstkokers van 2025 Vergeleken', 'http://localhost:4000/reviews/de-beste-rijstkokers-van-2025-vergeleken/')"
+                      class="flex items-center gap-2 bg-[#25D366] text-white px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-[#22BF5B] transition-colors"
+                      aria-label="Deel via WhatsApp"
+                  >
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/>
+                      </svg>
+                      WhatsApp
+                  </button>
+                  <button 
+                      onclick="printRecipe()"
+                      class="flex items-center gap-2 bg-gray-200 text-gray-700 px-4 py-2 rounded-lg w-full sm:w-auto hover:bg-gray-300 transition-colors"
+                      aria-label="Print recept"
+                  >
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <polyline points="6 9 6 2 18 2 18 9"/>
+                          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+                          <rect x="6" y="14" width="12" height="8"/>
+                      </svg>
+                      Print
+                  </button>
+              </div>
+          </div>
+          
+
+
 </article>
 
 
