@@ -5,7 +5,7 @@ description: "Leer de belangrijkste kooktechnieken die elke thuiskok moet kennen
 image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f"
 categories: [Kooktips]
 rating: 5
-date: 2025-02-15
+date: 2025-01-15
 ---
 <main class="container mx-auto px-4 py-12 max-w-4xl">
     <article class="prose prose-lg max-w-none">

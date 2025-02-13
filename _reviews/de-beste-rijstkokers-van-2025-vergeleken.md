@@ -5,7 +5,7 @@ description: "Complete vergelijking van de top 10 rijstkokers: welke past het be
 image: "https://images.unsplash.com/photo-1516684732162-798a0062be99"
 categories: [Vergelijkingen]
 rating: 5
-date: 2025-02-16
+date: 2025-01-16
 ---
 
 <main class="container mx-auto px-4 py-12 max-w-4xl">
