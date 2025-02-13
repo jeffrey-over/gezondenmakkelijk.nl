@@ -33,7 +33,7 @@ date: 2025-02-16
             <h2 class="text-3xl font-bold mb-6">Top 3 Rijstkokers</h2>
             
             <div class="space-y-6">
-                <!-- Beste Keuze -->
+          
                 <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-amber-500">
                     <div class="flex justify-between items-start mb-4">
                         <div>
@@ -56,7 +56,7 @@ date: 2025-02-16
                     </div>
                 </div>
 
-                <!-- Beste Prijs-Kwaliteit -->
+           
                 <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-emerald-500">
                     <div class="flex justify-between items-start mb-4">
                         <div>
@@ -79,7 +79,7 @@ date: 2025-02-16
                     </div>
                 </div>
 
-                <!-- Budget Keuze -->
+             
                 <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-500">
                     <div class="flex justify-between items-start mb-4">
                         <div>

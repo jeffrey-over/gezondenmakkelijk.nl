@@ -7,7 +7,6 @@ categories: [Kooktips]
 rating: 5
 date: 2025-02-15
 ---
-
 <main class="container mx-auto px-4 py-12 max-w-4xl">
     <article class="prose prose-lg max-w-none">
         <div class="mb-12">
