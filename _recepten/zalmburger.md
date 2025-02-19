@@ -13,12 +13,12 @@ ingredients:
   - 1 citroen
   - 2 el mayonaise
   - Peper en zout
-  - Voor de saus:
+  - Voor de saus;
   - 2 rijpe avocado's
   - 1 limoen
   - 1 teen knoflook
   - Verse koriander
-  - Optioneel:
+  - Optioneel;
   - Slabladen
   - Tomaat
   - Rode ui

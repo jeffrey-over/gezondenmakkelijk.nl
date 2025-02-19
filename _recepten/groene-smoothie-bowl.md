@@ -11,7 +11,7 @@ ingredients:
   - 1 avocado
   - 200ml kokoswater
   - 1 el chiazaad
-  - Toppings: granola, kokosrasp, bessen
+  - Toppings; granola, kokosrasp, bessen
 instructions:
   - Blend banaan, spinazie, halve avocado en kokoswater.
   - Giet in een kom.

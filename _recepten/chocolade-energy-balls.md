@@ -13,7 +13,7 @@ ingredients:
   - 1 el kokosolie
   - 1 tl vanille extract
   - Snufje zeezout
-  - Voor coating:
+  - Voor coating;
   - Cacaopoeder
   - Kokosrasp
   - Gehakte noten

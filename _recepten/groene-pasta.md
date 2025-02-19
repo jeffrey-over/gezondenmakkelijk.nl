@@ -7,14 +7,14 @@ tijd: 25
 portions: 4
 ingredients:
   - 400g volkoren pasta
-  - Voor de pesto:
+  - Voor de pesto;
   - 200g verse spinazie
   - 50g pijnboompitten
   - 50g Parmezaanse kaas
   - 2 tenen knoflook
   - Sap van 1 citroen
   - 100ml olijfolie
-  - Garnering:
+  - Garnering;
   - Cherrytomaatjes
   - Extra Parmezaanse kaas
   - Verse basilicum

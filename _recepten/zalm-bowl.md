@@ -14,7 +14,7 @@ ingredients:
   - 2 radijsjes
   - 2 el sesamzaad
   - Wasabi naar smaak
-  - Voor de dressing:
+  - Voor de dressing;
   - 3 el sojasaus
   - 1 el sesamolie
   - 1 el rijstazijn

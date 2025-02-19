@@ -8,15 +8,15 @@ portions: 2
 ingredients:
   - 1 grote zoete aardappel
   - 2 el olijfolie
-  - Toppings optie 1:
+  - Toppings optie 1;
   - 1 avocado
   - Cherrytomaatjes
   - Chilivlokken
-  - Toppings optie 2:
+  - Toppings optie 2;
   - Hummus
   - Gegrilde paprika
   - Pijnboompitten
-  - Toppings optie 3:
+  - Toppings optie 3;
   - Cottage cheese
   - Gerookte zalm
   - Verse dille
