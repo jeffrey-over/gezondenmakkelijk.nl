@@ -1,7 +1,7 @@
 ---
 title: Mediterrane Couscoussalade
 description: Frisse couscoussalade met gegrilde groenten en feta
-image: https://images.unsplash.com/photo-1534938665420-4193effeacc4
+image: https://images.pexels.com/photos/8286759/pexels-photo-8286759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Lunch, Vegetarisch]
 tijd: 25
 portions: 4

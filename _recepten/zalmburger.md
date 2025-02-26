@@ -1,7 +1,7 @@
 ---
 title: Zalmburgers met Avocadosaus
 description: Sappige zalmburgers met frisse avocadosaus
-image: https://images.unsplash.com/photo-1485451456034-3f9391c6f769
+image: https://img.freepik.com/free-photo/front-view-burger-with-eggs-vegetables-inside-round-plate_140725-11604.jpg?t=st=1740584530~exp=1740588130~hmac=a669a7f9a0346f9b0b623c8af4b33c09bd70e6b872b6ea95666ee25f696804af&w=1380
 categories: [Diner, Lunch, Koolhydraatarm]
 tijd: 30
 portions: 4

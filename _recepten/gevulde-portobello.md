@@ -1,7 +1,7 @@
 ---
 title: Gevulde Portobello's
 description: Portobello's gevuld met quinoa, groenten en geitenkaas
-image: https://images.unsplash.com/photo-1662503788876-8a4f520a8e72
+image: https://img.freepik.com/free-photo/front-view-delicious-mushrooms-meal-cooked-with-greens-dark-background-dish-dinner-meal-cooking-mushroom_140725-110054.jpg?t=st=1740584296~exp=1740587896~hmac=7b92244e07541358d614cd30d672a5b6586f5d4acd979ac7742b2715e8e63de8&w=996
 categories: [Diner, Vegetarisch, Koolhydraatarm]
 tijd: 30
 portions: 4

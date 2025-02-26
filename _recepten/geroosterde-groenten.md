@@ -1,7 +1,7 @@
 ---
 title: Geroosterde Groenten met Kruiden
 description: Kleurrijke mix van geroosterde seizoensgroenten met verse kruiden
-image: https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5
+image: https://images.pexels.com/photos/6546428/pexels-photo-6546428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 categories: [Bijgerecht, Vegetarisch, Koolhydraatarm]
 tijd: 35
 portions: 4
