@@ -1,14 +1,18 @@
 # Site settings
 title: Gezonde Recepten
-description: Gezonde en lekkere recepten voor elk moment van de dag
+description: Gezonde en lekkere recepten voor elk moment van de dag. Ontdek honderden makkelijke, voedzame recepten met stap-voor-stap instructies.
 url: "https://www.gezondenmakkelijk.nl"  # voeg dit toe
+author: Gezonde & Makkelijk Team
+keywords: gezonde recepten, makkelijke recepten, voedzame maaltijden, koolhydraatarm, vegetarisch, meal prep
+
 # Build settings
 markdown: kramdown
-
+permalink: /:categories/:title/
 
 plugins:
   - jekyll-sitemap
-
+  - jekyll-seo-tag
+  - jekyll-feed
 
 # Collections
 collections:
@@ -19,6 +23,7 @@ collections:
     output: true
     permalink: /reviews/:title/
 
+
 # Default front matter for recipes
 defaults:
   - scope:
@@ -27,6 +32,15 @@ defaults:
     values:
       layout: recipe
       comments: true
+      schema_type: Recipe
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: review
+      comments: true
+      schema_type: Article
+
 
 # Include directories
 include:
@@ -34,10 +48,14 @@ include:
   - categorie
 
 # Exclude directories
+
+# Exclude directories
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-
-
+  - README.md
+  - package.json
+  - package-lock.json
+  - .gitignore

@@ -11,9 +11,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    {% if site.url %}
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-  {% endif %}
+  
+  
+      <!-- Meta tags -->
+      <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+      <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+      <meta name="author" content="{{ site.author }}">
+      
+      <!-- Open Graph tags -->
+      <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+      <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+      <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}/assets/images/default-og.jpg{% endif %}">
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+      <meta property="og:type" content="{% if page.schema_type %}{{ page.schema_type }}{% else %}website{% endif %}">
+      <meta property="og:site_name" content="{{ site.title }}">
+      
+      <!-- Twitter Card tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+      <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+      <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}/assets/images/default-og.jpg{% endif %}">
+      
+      <!-- Canonical URL -->
+      <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+      
+      <!-- RSS Feed -->
+      <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+      
+   
+      <!-- Recipe Schema.org markup -->
+      {% if page.schema_type == "Recipe" %}
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "name": "{{ page.title }}",
+        "image": "{{ page.image }}",
+        "description": "{{ page.description }}",
+        "keywords": "{{ page.categories | join: ', ' }}",
+        "author": {
+          "@type": "Organization",
+          "name": "{{ site.title }}"
+        },
+        "prepTime": "PT{{ page.tijd }}M",
+        "recipeYield": "{{ page.portions }} porties",
+        "recipeCategory": "{{ page.categories | first }}",
+        "recipeIngredient": {{ page.ingredients | jsonify }},
+        "recipeInstructions": {{ page.instructions | jsonify }}
+      }
+      </script>
+      {% endif %}
+    
+    
+   
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LNRFQBP4C0"></script>
 <script>
