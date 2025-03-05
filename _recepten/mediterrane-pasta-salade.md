@@ -38,7 +38,7 @@ ingredients:
   - 200g feta
   - 1 rode ui
   - Verse basilicum
-  - Voor de dressing:
+  - Voor de dressing;
   - 4 el extra vierge olijfolie
   - 2 el balsamico azijn
   - 1 teen knoflook
